@@ -4,9 +4,13 @@
   "description": "scraper to notify about the price of a particular product",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
-  "keywords": ["scraper", "node", "cheerio"],
+  "keywords": [
+    "scraper",
+    "node",
+    "cheerio"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -14,5 +18,8 @@
     "cron": "^1.8.2",
     "nodemailer": "^6.5.0",
     "puppeteer": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
